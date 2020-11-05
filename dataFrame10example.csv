@@ -1,0 +1,6 @@
+﻿,first_name,last_name,age,preTestScore,postTestScore
+0,Jason,Miller,42,4,25000
+1,Molly,Jacobson,52,24,94000
+2,Tina,NaN,36,31,57
+3,Jake,Milner,24,NaN,62
+4,Amy,Cooze,73,NaN,70
