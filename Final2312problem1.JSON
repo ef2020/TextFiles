@@ -1,9 +1,0 @@
-employees = {
-     'emp1': {'name': 'John', 'emplType': 'Full-Time', 'dept':'002', 'titleCode' = 'T1'},
-     'emp2': {'name': 'Adam', 'emplType': 'Consultant', 'dept':'001', 'titleCode' = 'T3'},
-     'emp3': {'name': 'Mary', 'emplType': 'Part-Time', 'dept':'004', 'titleCode' = 'T4'},
-     'emp4': {'name': 'Peter', 'emplType': 'Full-Time', 'dept':'003', 'titleCode' = 'T2'},
-     'emp5': {'name': 'Scott', 'emplType': 'Consultant', 'dept':'002', 'titleCode' = 'T1'},
-     'emp6': {'name': 'Susan', 'emplType': 'Full-Time', 'dept':'005', 'titleCode' = 'T5'},
-     'emp7': {'name': 'Alex', 'emplType': 'Part-Time', 'dept':'004', 'titleCode' = 'T2'}
-}
