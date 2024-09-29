@@ -1,0 +1,2141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_14fb1949fe42ff39dd1ffcd192396c1a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_14fb1949fe42ff39dd1ffcd192396c1a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_14fb1949fe42ff39dd1ffcd192396c1a = L.map(
+                "map_14fb1949fe42ff39dd1ffcd192396c1a",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_85210beaf1d69e5e6775a996bf613df2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_85210beaf1d69e5e6775a996bf613df2.addTo(map_14fb1949fe42ff39dd1ffcd192396c1a);
+        
+    
+            var marker_cluster_c3774f05d4db783737ccd73af0eba47f = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_cc9d38c073e0f2ce24a2e882c8c9cdc0 = L.marker(
+                [42.3764852, -71.2356113],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_e8b29b0d72e0b2f505b3f84a6a9e3c6e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d4fba764bffd8078a8bf4a29344f0a13 = $(`<div id="html_d4fba764bffd8078a8bf4a29344f0a13" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Brandeis University<br>         <b>Location:</b> Waltham, MA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_e8b29b0d72e0b2f505b3f84a6a9e3c6e.setContent(html_d4fba764bffd8078a8bf4a29344f0a13);
+            
+        
+
+        marker_cc9d38c073e0f2ce24a2e882c8c9cdc0.bindPopup(popup_e8b29b0d72e0b2f505b3f84a6a9e3c6e)
+        ;
+
+        
+    
+    
+            var marker_5c14cfe2c710e0242f738fd2e7bd17ab = L.marker(
+                [40.2338438, -111.6585337],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_e2299fa93bf35e59141f40a0dedcc3f2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9b1a455a4cc2bf8c9ebce03cfbc3d2c7 = $(`<div id="html_9b1a455a4cc2bf8c9ebce03cfbc3d2c7" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Brigham Young University<br>         <b>Location:</b> Provo, UT, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 2         </div>`)[0];
+                popup_e2299fa93bf35e59141f40a0dedcc3f2.setContent(html_9b1a455a4cc2bf8c9ebce03cfbc3d2c7);
+            
+        
+
+        marker_5c14cfe2c710e0242f738fd2e7bd17ab.bindPopup(popup_e2299fa93bf35e59141f40a0dedcc3f2)
+        ;
+
+        
+    
+    
+            var marker_6b7d0f2360e4b21cec1dac0204af2021 = L.marker(
+                [40.44062479999999, -79.9958864],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_faaa35f037112f9ce2343bee047ac933 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_470f481714d69ca0f9366c62d301da60 = $(`<div id="html_470f481714d69ca0f9366c62d301da60" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Carnegie Mellon University<br>         <b>Location:</b> Pittsburgh, PA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 37         </div>`)[0];
+                popup_faaa35f037112f9ce2343bee047ac933.setContent(html_470f481714d69ca0f9366c62d301da60);
+            
+        
+
+        marker_6b7d0f2360e4b21cec1dac0204af2021.bindPopup(popup_faaa35f037112f9ce2343bee047ac933)
+        ;
+
+        
+    
+    
+            var marker_f886ea154c69064e7388cd12bb3a3c85 = L.marker(
+                [37.2707022, -76.7074571],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_ad740637cef34de87f50dd5abd55579f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_60942a7d24fa49f654cf283148a18580 = $(`<div id="html_60942a7d24fa49f654cf283148a18580" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> College of William and Mary<br>         <b>Location:</b> Williamsburg, VA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 3         </div>`)[0];
+                popup_ad740637cef34de87f50dd5abd55579f.setContent(html_60942a7d24fa49f654cf283148a18580);
+            
+        
+
+        marker_f886ea154c69064e7388cd12bb3a3c85.bindPopup(popup_ad740637cef34de87f50dd5abd55579f)
+        ;
+
+        
+    
+    
+            var marker_0dede18a1f545a40ae6f9c40bb0af796 = L.marker(
+                [40.7127753, -74.0059728],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_ea35e47ef1baf919bab392d609b22fc4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bd8341fa2de53bd5fa1588062e1fdda1 = $(`<div id="html_bd8341fa2de53bd5fa1588062e1fdda1" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Columbia University<br>         <b>Location:</b> New York, NY, US<br>         <b>Number of Seats:</b> 30<br>         <b>Available Seats:</b> 38         </div>`)[0];
+                popup_ea35e47ef1baf919bab392d609b22fc4.setContent(html_bd8341fa2de53bd5fa1588062e1fdda1);
+            
+        
+
+        marker_0dede18a1f545a40ae6f9c40bb0af796.bindPopup(popup_ea35e47ef1baf919bab392d609b22fc4)
+        ;
+
+        
+    
+    
+            var marker_498997da8092f5a10446cb1af5e12148 = L.marker(
+                [42.4439614, -76.5018807],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_79623b927f71633a66e84cb2d9cac9c4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0eba1ce6a2a25fecc56b3293fb695ac9 = $(`<div id="html_0eba1ce6a2a25fecc56b3293fb695ac9" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Cornell University<br>         <b>Location:</b> Ithaca, NY, US<br>         <b>Number of Seats:</b> 30<br>         <b>Available Seats:</b> 11         </div>`)[0];
+                popup_79623b927f71633a66e84cb2d9cac9c4.setContent(html_0eba1ce6a2a25fecc56b3293fb695ac9);
+            
+        
+
+        marker_498997da8092f5a10446cb1af5e12148.bindPopup(popup_79623b927f71633a66e84cb2d9cac9c4)
+        ;
+
+        
+    
+    
+            var marker_28a16baeb0147e4fbfe7d72cd07d0af3 = L.marker(
+                [44.6508608, -63.5923256],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_18bf7fcb6782c80acf6b5d340c31f3d2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f05a96d96de904badc1d174feb07b3c9 = $(`<div id="html_f05a96d96de904badc1d174feb07b3c9" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Dalhousie University<br>         <b>Location:</b> Halifax, NS, CA<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_18bf7fcb6782c80acf6b5d340c31f3d2.setContent(html_f05a96d96de904badc1d174feb07b3c9);
+            
+        
+
+        marker_28a16baeb0147e4fbfe7d72cd07d0af3.bindPopup(popup_18bf7fcb6782c80acf6b5d340c31f3d2)
+        ;
+
+        
+    
+    
+            var marker_25eb8a28d6c4a0f950938343f2db467e = L.marker(
+                [38.9071923, -77.0368707],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_9e49eea3208c099fca2362d7a8e1bf49 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_86fe59fff141b6b1794e25481ebac76a = $(`<div id="html_86fe59fff141b6b1794e25481ebac76a" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Georgetown University (COVID restrictions possible; Contact local host)<br>         <b>Location:</b> Washington, DC, US<br>         <b>Number of Seats:</b> 20<br>         <b>Available Seats:</b> 20         </div>`)[0];
+                popup_9e49eea3208c099fca2362d7a8e1bf49.setContent(html_86fe59fff141b6b1794e25481ebac76a);
+            
+        
+
+        marker_25eb8a28d6c4a0f950938343f2db467e.bindPopup(popup_9e49eea3208c099fca2362d7a8e1bf49)
+        ;
+
+        
+    
+    
+            var marker_9fdab38f37ddc262e423d65c49670336 = L.marker(
+                [39.2903848, -76.6121893],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_18317f9fbeb356a576496705a32d5175 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ccebbdbe72c62f7bbcbaf139b95678c9 = $(`<div id="html_ccebbdbe72c62f7bbcbaf139b95678c9" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Johns Hopkins University<br>         <b>Location:</b> Baltimore, MD, US<br>         <b>Number of Seats:</b> 30<br>         <b>Available Seats:</b> 20         </div>`)[0];
+                popup_18317f9fbeb356a576496705a32d5175.setContent(html_ccebbdbe72c62f7bbcbaf139b95678c9);
+            
+        
+
+        marker_9fdab38f37ddc262e423d65c49670336.bindPopup(popup_18317f9fbeb356a576496705a32d5175)
+        ;
+
+        
+    
+    
+            var marker_86ab46adcab85ebccb134f2545bf18c1 = L.marker(
+                [42.3736158, -71.10973349999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_0eba2576e2ad4212b754a94140be4c14 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_24d9d7dcfb4e09206be12ae27e15b5e5 = $(`<div id="html_24d9d7dcfb4e09206be12ae27e15b5e5" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Massachusetts Institute of Technology<br>         <b>Location:</b> Cambridge, MA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 49         </div>`)[0];
+                popup_0eba2576e2ad4212b754a94140be4c14.setContent(html_24d9d7dcfb4e09206be12ae27e15b5e5);
+            
+        
+
+        marker_86ab46adcab85ebccb134f2545bf18c1.bindPopup(popup_0eba2576e2ad4212b754a94140be4c14)
+        ;
+
+        
+    
+    
+            var marker_9c767cd0896a036645c3f4489369f859 = L.marker(
+                [35.8456213, -86.39027],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_fd6a13a51dc0e142a74ed9f5bd33616c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c352aee12d21a2560d68bd38afa74d56 = $(`<div id="html_c352aee12d21a2560d68bd38afa74d56" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Middle Tennessee State University<br>         <b>Location:</b> Murfreesboro, TN, US<br>         <b>Number of Seats:</b> 12<br>         <b>Available Seats:</b> 8         </div>`)[0];
+                popup_fd6a13a51dc0e142a74ed9f5bd33616c.setContent(html_c352aee12d21a2560d68bd38afa74d56);
+            
+        
+
+        marker_9c767cd0896a036645c3f4489369f859.bindPopup(popup_fd6a13a51dc0e142a74ed9f5bd33616c)
+        ;
+
+        
+    
+    
+            var marker_b53a155f41b59ab20a312fdd3d3c85ee = L.marker(
+                [44.1661456, -94.0055647],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_c4383d4ab56fad806a971254f7406137 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a225240b7d2205835173a1fcc98475a2 = $(`<div id="html_a225240b7d2205835173a1fcc98475a2" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Minnesota State University Mankato<br>         <b>Location:</b> Mankato, MN, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 1         </div>`)[0];
+                popup_c4383d4ab56fad806a971254f7406137.setContent(html_a225240b7d2205835173a1fcc98475a2);
+            
+        
+
+        marker_b53a155f41b59ab20a312fdd3d3c85ee.bindPopup(popup_c4383d4ab56fad806a971254f7406137)
+        ;
+
+        
+    
+    
+            var marker_9fd8bd67dd040acc0baeee1743ebeca7 = L.marker(
+                [39.9611755, -82.99879419999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_be3d54146c9835205c65bdfb5bfc5172 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_95ad2050978d31491abe856e73e690a0 = $(`<div id="html_95ad2050978d31491abe856e73e690a0" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Ohio State University<br>         <b>Location:</b> Columbus, OH, US<br>         <b>Number of Seats:</b> 50<br>         <b>Available Seats:</b> 21         </div>`)[0];
+                popup_be3d54146c9835205c65bdfb5bfc5172.setContent(html_95ad2050978d31491abe856e73e690a0);
+            
+        
+
+        marker_9fd8bd67dd040acc0baeee1743ebeca7.bindPopup(popup_be3d54146c9835205c65bdfb5bfc5172)
+        ;
+
+        
+    
+    
+            var marker_c59863bfb0adafebe53775ea44bb05ce = L.marker(
+                [40.3572976, -74.6672226],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_2cbb1d6f543524df53e4a55be60f1562 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_221a20e41cca1035e3fd70676b99b31f = $(`<div id="html_221a20e41cca1035e3fd70676b99b31f" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Princeton University<br>         <b>Location:</b> Princeton, NJ, US<br>         <b>Number of Seats:</b> 30<br>         <b>Available Seats:</b> 39         </div>`)[0];
+                popup_2cbb1d6f543524df53e4a55be60f1562.setContent(html_221a20e41cca1035e3fd70676b99b31f);
+            
+        
+
+        marker_c59863bfb0adafebe53775ea44bb05ce.bindPopup(popup_2cbb1d6f543524df53e4a55be60f1562)
+        ;
+
+        
+    
+    
+            var marker_e64fbbfcf4389d4e80e92c985aeecc7d = L.marker(
+                [49.2488091, -122.9805104],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_a16eb2b7c539128e8f3894c455af0fad = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_47f30947a6db70acae87768619e5391b = $(`<div id="html_47f30947a6db70acae87768619e5391b" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Simon Fraser University<br>         <b>Location:</b> Burnaby, BC, CA<br>         <b>Number of Seats:</b> 12<br>         <b>Available Seats:</b> 9         </div>`)[0];
+                popup_a16eb2b7c539128e8f3894c455af0fad.setContent(html_47f30947a6db70acae87768619e5391b);
+            
+        
+
+        marker_e64fbbfcf4389d4e80e92c985aeecc7d.bindPopup(popup_a16eb2b7c539128e8f3894c455af0fad)
+        ;
+
+        
+    
+    
+            var marker_496e0fc8a4565646624a606fcf6a0142 = L.marker(
+                [37.42410599999999, -122.1660756],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_2c830362365a7d7b6928e5ba1af933a2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c799762b1893d79b3efba1ac55146d4d = $(`<div id="html_c799762b1893d79b3efba1ac55146d4d" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Stanford University<br>         <b>Location:</b> Stanford, CA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 61         </div>`)[0];
+                popup_2c830362365a7d7b6928e5ba1af933a2.setContent(html_c799762b1893d79b3efba1ac55146d4d);
+            
+        
+
+        marker_496e0fc8a4565646624a606fcf6a0142.bindPopup(popup_2c830362365a7d7b6928e5ba1af933a2)
+        ;
+
+        
+    
+    
+            var marker_d55f8afe9cb01cb46c610551e4e8bce0 = L.marker(
+                [40.9256538, -73.1409429],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_32ed15fe7cd1bdecb4ed570576e61b34 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c5f7763306b1e02222310dee7645e170 = $(`<div id="html_c5f7763306b1e02222310dee7645e170" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Stony Brook University<br>         <b>Location:</b> Stony Brook, NY, US<br>         <b>Number of Seats:</b> 25<br>         <b>Available Seats:</b> 19         </div>`)[0];
+                popup_32ed15fe7cd1bdecb4ed570576e61b34.setContent(html_c5f7763306b1e02222310dee7645e170);
+            
+        
+
+        marker_d55f8afe9cb01cb46c610551e4e8bce0.bindPopup(popup_32ed15fe7cd1bdecb4ed570576e61b34)
+        ;
+
+        
+    
+    
+            var marker_6c8c244c177336addb0d2030dcea1665 = L.marker(
+                [42.8142432, -73.9395687],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_c43cc7b43d8f8f6518eddf2f5afcb3f7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bcbd63619a488c4b5d805aec6d9d44ca = $(`<div id="html_bcbd63619a488c4b5d805aec6d9d44ca" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Union College<br>         <b>Location:</b> Schenectady, NY, US<br>         <b>Number of Seats:</b> 15<br>         <b>Available Seats:</b> 12         </div>`)[0];
+                popup_c43cc7b43d8f8f6518eddf2f5afcb3f7.setContent(html_bcbd63619a488c4b5d805aec6d9d44ca);
+            
+        
+
+        marker_6c8c244c177336addb0d2030dcea1665.bindPopup(popup_c43cc7b43d8f8f6518eddf2f5afcb3f7)
+        ;
+
+        
+    
+    
+            var marker_de4f68bef03c8c3db7acbb6528df3fa1 = L.marker(
+                [43.0389025, -87.9064736],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_1c7063d4e3108f0775ce7b7d776be9d8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6728ac951cc6dd1a3fcbda937b2eeec2 = $(`<div id="html_6728ac951cc6dd1a3fcbda937b2eeec2" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Wisconsin, Milwaukee<br>         <b>Location:</b> Milwaukee, WI, US<br>         <b>Number of Seats:</b> 50<br>         <b>Available Seats:</b> 25         </div>`)[0];
+                popup_1c7063d4e3108f0775ce7b7d776be9d8.setContent(html_6728ac951cc6dd1a3fcbda937b2eeec2);
+            
+        
+
+        marker_de4f68bef03c8c3db7acbb6528df3fa1.bindPopup(popup_1c7063d4e3108f0775ce7b7d776be9d8)
+        ;
+
+        
+    
+    
+            var marker_172123b42aad8f7ff10d4e5d2458b047 = L.marker(
+                [49.2827291, -123.1207375],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_738c419aeee123bfdef30d32f7ccbfe4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1167d7a5babd31447eae7628e1a26af9 = $(`<div id="html_1167d7a5babd31447eae7628e1a26af9" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of British Columbia<br>         <b>Location:</b> Vancouver, BC, CA<br>         <b>Number of Seats:</b> 30<br>         <b>Available Seats:</b> 30         </div>`)[0];
+                popup_738c419aeee123bfdef30d32f7ccbfe4.setContent(html_1167d7a5babd31447eae7628e1a26af9);
+            
+        
+
+        marker_172123b42aad8f7ff10d4e5d2458b047.bindPopup(popup_738c419aeee123bfdef30d32f7ccbfe4)
+        ;
+
+        
+    
+    
+            var marker_5b3f1a4f8fa02b9ba3dd5d519c1f9d87 = L.marker(
+                [40.0149856, -105.2705456],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_952855a70c323994e84c0ac01e8386d7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4fd554f47cca45a71dec414ab49eabee = $(`<div id="html_4fd554f47cca45a71dec414ab49eabee" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Colorado at Boulder<br>         <b>Location:</b> Boulder, CO, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_952855a70c323994e84c0ac01e8386d7.setContent(html_4fd554f47cca45a71dec414ab49eabee);
+            
+        
+
+        marker_5b3f1a4f8fa02b9ba3dd5d519c1f9d87.bindPopup(popup_952855a70c323994e84c0ac01e8386d7)
+        ;
+
+        
+    
+    
+            var marker_97e4dcdc16361963e117e46d7ac097a0 = L.marker(
+                [40.1105875, -88.2072697],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_23769b315ccad542d73e2b0a1bf48dd7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_60c75ac0851292b7582df64e3ac7d640 = $(`<div id="html_60c75ac0851292b7582df64e3ac7d640" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Illinois at Urbana-Champaign<br>         <b>Location:</b> Urbana-Champaign, IL, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_23769b315ccad542d73e2b0a1bf48dd7.setContent(html_60c75ac0851292b7582df64e3ac7d640);
+            
+        
+
+        marker_97e4dcdc16361963e117e46d7ac097a0.bindPopup(popup_23769b315ccad542d73e2b0a1bf48dd7)
+        ;
+
+        
+    
+    
+            var marker_9cb031140b02b9a76ac288f4b7970bbc = L.marker(
+                [42.2808256, -83.7430378],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_386936dcee0f48877d1e045f212de552 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_64749617053a9049a35d5eb6700c2ed2 = $(`<div id="html_64749617053a9049a35d5eb6700c2ed2" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Michigan<br>         <b>Location:</b> Ann Arbor, MI, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 11         </div>`)[0];
+                popup_386936dcee0f48877d1e045f212de552.setContent(html_64749617053a9049a35d5eb6700c2ed2);
+            
+        
+
+        marker_9cb031140b02b9a76ac288f4b7970bbc.bindPopup(popup_386936dcee0f48877d1e045f212de552)
+        ;
+
+        
+    
+    
+            var marker_417a49ec46f6e329731763afb13670b6 = L.marker(
+                [35.2270869, -80.8431267],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_5d842a0720edf5d85a0ecc7cdc28d90b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b9b050f54d2777b4760c297a812abab3 = $(`<div id="html_b9b050f54d2777b4760c297a812abab3" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of North Carolina Charlotte<br>         <b>Location:</b> Charlotte, NC, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_5d842a0720edf5d85a0ecc7cdc28d90b.setContent(html_b9b050f54d2777b4760c297a812abab3);
+            
+        
+
+        marker_417a49ec46f6e329731763afb13670b6.bindPopup(popup_5d842a0720edf5d85a0ecc7cdc28d90b)
+        ;
+
+        
+    
+    
+            var marker_bd9c6c31b1f5a11670a0a90990712feb = L.marker(
+                [33.2148412, -97.13306829999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_71728fe70de08418611402c88acf93c7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_da77ada45bf3d2296053647ec9291960 = $(`<div id="html_da77ada45bf3d2296053647ec9291960" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of North Texas<br>         <b>Location:</b> Denton, TX, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 13         </div>`)[0];
+                popup_71728fe70de08418611402c88acf93c7.setContent(html_da77ada45bf3d2296053647ec9291960);
+            
+        
+
+        marker_bd9c6c31b1f5a11670a0a90990712feb.bindPopup(popup_71728fe70de08418611402c88acf93c7)
+        ;
+
+        
+    
+    
+            var marker_c745f16dc2143bef9a067c502fe8bb37 = L.marker(
+                [45.4200572, -75.7003397],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_c4092d27894e7f0d2da1d54b58f5962c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7bead29f776b9d7200b1c77d1c83280a = $(`<div id="html_7bead29f776b9d7200b1c77d1c83280a" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Ottawa<br>         <b>Location:</b> Ottawa, ON, CA<br>         <b>Number of Seats:</b> 18<br>         <b>Available Seats:</b> 10         </div>`)[0];
+                popup_c4092d27894e7f0d2da1d54b58f5962c.setContent(html_7bead29f776b9d7200b1c77d1c83280a);
+            
+        
+
+        marker_c745f16dc2143bef9a067c502fe8bb37.bindPopup(popup_c4092d27894e7f0d2da1d54b58f5962c)
+        ;
+
+        
+    
+    
+            var marker_f3b316bff4cc38ffe2ee65c0cb2fec24 = L.marker(
+                [39.9525839, -75.1652215],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_9c16bfa7133e67be58584076b1c74616 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a81319893600a13005957de2328adf4c = $(`<div id="html_a81319893600a13005957de2328adf4c" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Pennsylvania<br>         <b>Location:</b> Philadelphia, PA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 26         </div>`)[0];
+                popup_9c16bfa7133e67be58584076b1c74616.setContent(html_a81319893600a13005957de2328adf4c);
+            
+        
+
+        marker_f3b316bff4cc38ffe2ee65c0cb2fec24.bindPopup(popup_9c16bfa7133e67be58584076b1c74616)
+        ;
+
+        
+    
+    
+            var marker_6d269ff0e02a137d4e6d43e95401d646 = L.marker(
+                [33.9802893, -118.4517449],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_2b052a4adefd61954f3ec53421519292 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e4c8e251d25b454a099aa041e2c90088 = $(`<div id="html_e4c8e251d25b454a099aa041e2c90088" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Southern California, ISI campus<br>         <b>Location:</b> Marina del Rey, CA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_2b052a4adefd61954f3ec53421519292.setContent(html_e4c8e251d25b454a099aa041e2c90088);
+            
+        
+
+        marker_6d269ff0e02a137d4e6d43e95401d646.bindPopup(popup_2b052a4adefd61954f3ec53421519292)
+        ;
+
+        
+    
+    
+            var marker_27187344d97e79d5322b1cc1c914d918 = L.marker(
+                [32.9483335, -96.7298519],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_f845b24a2adb477f3cbad3e5c92622b3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_78ac7f28608399fc696bbf9d5118286b = $(`<div id="html_78ac7f28608399fc696bbf9d5118286b" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Texas at Dallas<br>         <b>Location:</b> Richardson, TX, US<br>         <b>Number of Seats:</b> 15<br>         <b>Available Seats:</b> 25         </div>`)[0];
+                popup_f845b24a2adb477f3cbad3e5c92622b3.setContent(html_78ac7f28608399fc696bbf9d5118286b);
+            
+        
+
+        marker_27187344d97e79d5322b1cc1c914d918.bindPopup(popup_f845b24a2adb477f3cbad3e5c92622b3)
+        ;
+
+        
+    
+    
+            var marker_7f1395019b2bc4f768de8c58d5451725 = L.marker(
+                [43.653226, -79.3831843],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_deaf11a311da61a9c307fb87af1f7ffe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2d168e3657b855d6081a287a1682b235 = $(`<div id="html_2d168e3657b855d6081a287a1682b235" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Toronto<br>         <b>Location:</b> Toronto, ON, CA<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 15         </div>`)[0];
+                popup_deaf11a311da61a9c307fb87af1f7ffe.setContent(html_2d168e3657b855d6081a287a1682b235);
+            
+        
+
+        marker_7f1395019b2bc4f768de8c58d5451725.bindPopup(popup_deaf11a311da61a9c307fb87af1f7ffe)
+        ;
+
+        
+    
+    
+            var marker_4af939af7bc31cf74926f5a42343c311 = L.marker(
+                [47.6061389, -122.3328481],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_496717883569e1dd164084a5425f528a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6e524e64c81f7d0355077b307496d3ee = $(`<div id="html_6e524e64c81f7d0355077b307496d3ee" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Washington<br>         <b>Location:</b> Seattle, WA, US<br>         <b>Number of Seats:</b> 45<br>         <b>Available Seats:</b> 41         </div>`)[0];
+                popup_496717883569e1dd164084a5425f528a.setContent(html_6e524e64c81f7d0355077b307496d3ee);
+            
+        
+
+        marker_4af939af7bc31cf74926f5a42343c311.bindPopup(popup_496717883569e1dd164084a5425f528a)
+        ;
+
+        
+    
+    
+            var marker_ec36584b24cd1ca27276b7d0d752790c = L.marker(
+                [42.9849233, -81.2452768],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_c9572dbc8428ccff0a8633547bdf453f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a5ae082e0fbda4d8dfbcb93c0b1f62f3 = $(`<div id="html_a5ae082e0fbda4d8dfbcb93c0b1f62f3" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Western Ontario<br>         <b>Location:</b> London, ON, CA<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_c9572dbc8428ccff0a8633547bdf453f.setContent(html_a5ae082e0fbda4d8dfbcb93c0b1f62f3);
+            
+        
+
+        marker_ec36584b24cd1ca27276b7d0d752790c.bindPopup(popup_c9572dbc8428ccff0a8633547bdf453f)
+        ;
+
+        
+    
+    
+            var marker_31528d727dcd44169330ef35337f00ab = L.marker(
+                [43.0721661, -89.4007501],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_b57b8a239551e27b24fe72d851e9f87d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9d5efe2435004f561efc7c80de3095b6 = $(`<div id="html_9d5efe2435004f561efc7c80de3095b6" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Wisconsin, Madison<br>         <b>Location:</b> Madison, WI, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_b57b8a239551e27b24fe72d851e9f87d.setContent(html_9d5efe2435004f561efc7c80de3095b6);
+            
+        
+
+        marker_31528d727dcd44169330ef35337f00ab.bindPopup(popup_b57b8a239551e27b24fe72d851e9f87d)
+        ;
+
+        
+    
+    
+            var marker_21e3c4b8c4fb3425282311f79da4d2fe = L.marker(
+                [48.7519112, -122.4786854],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_4dc156977d1113f6dc2d308cb5ab57ed = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_806c0f004508b383765a2136cea90df6 = $(`<div id="html_806c0f004508b383765a2136cea90df6" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Western Washington University<br>         <b>Location:</b> Bellingham, WA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_4dc156977d1113f6dc2d308cb5ab57ed.setContent(html_806c0f004508b383765a2136cea90df6);
+            
+        
+
+        marker_21e3c4b8c4fb3425282311f79da4d2fe.bindPopup(popup_4dc156977d1113f6dc2d308cb5ab57ed)
+        ;
+
+        
+    
+    
+            var marker_ab51bd3813dd07ed9757c91e9a381c89 = L.marker(
+                [41.308274, -72.9278835],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_9c19715d15eeed742e0d8d2d45dd828a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_400767a156908106fcceb00229ca5d27 = $(`<div id="html_400767a156908106fcceb00229ca5d27" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Yale University<br>         <b>Location:</b> New Haven, CT, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 35         </div>`)[0];
+                popup_9c19715d15eeed742e0d8d2d45dd828a.setContent(html_400767a156908106fcceb00229ca5d27);
+            
+        
+
+        marker_ab51bd3813dd07ed9757c91e9a381c89.bindPopup(popup_9c19715d15eeed742e0d8d2d45dd828a)
+        ;
+
+        
+    
+    
+            var marker_0c48e68c2c70544db96181b2894bef5a = L.marker(
+                [40.7607793, -111.8910474],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_bab5978d37271c2e4246cfb411a6a66e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_05d6670ff382c984e30317be074a59ca = $(`<div id="html_05d6670ff382c984e30317be074a59ca" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Utah<br>         <b>Location:</b> Salt Lake City, UT, US<br>         <b>Number of Seats:</b> 50<br>         <b>Available Seats:</b> 18         </div>`)[0];
+                popup_bab5978d37271c2e4246cfb411a6a66e.setContent(html_05d6670ff382c984e30317be074a59ca);
+            
+        
+
+        marker_0c48e68c2c70544db96181b2894bef5a.bindPopup(popup_bab5978d37271c2e4246cfb411a6a66e)
+        ;
+
+        
+    
+    
+            var marker_b1b7cb9c08a73954ad19d8b6a03a4250 = L.marker(
+                [33.7501275, -84.3885209],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_ed62760def9880a3cda6af0af9d4f778 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_43c71badb1e8982fb7e0676fb0f2afd8 = $(`<div id="html_43c71badb1e8982fb7e0676fb0f2afd8" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Emory University<br>         <b>Location:</b> Atlanta, GA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 13         </div>`)[0];
+                popup_ed62760def9880a3cda6af0af9d4f778.setContent(html_43c71badb1e8982fb7e0676fb0f2afd8);
+            
+        
+
+        marker_b1b7cb9c08a73954ad19d8b6a03a4250.bindPopup(popup_ed62760def9880a3cda6af0af9d4f778)
+        ;
+
+        
+    
+    
+            var marker_40d649fd77e725933422c308099b5b48 = L.marker(
+                [29.7600771, -95.37011079999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_a1a819fc1c00557aeefd3665e8a30d40 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a45249679a91efef73a83ecca06567f0 = $(`<div id="html_a45249679a91efef73a83ecca06567f0" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Houston<br>         <b>Location:</b> Houston, TX, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_a1a819fc1c00557aeefd3665e8a30d40.setContent(html_a45249679a91efef73a83ecca06567f0);
+            
+        
+
+        marker_40d649fd77e725933422c308099b5b48.bindPopup(popup_a1a819fc1c00557aeefd3665e8a30d40)
+        ;
+
+        
+    
+    
+            var marker_2624e0e4fbbf49607a21e029a106176b = L.marker(
+                [38.9896967, -76.93776],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_50cff5f45f72b8fbaaeba07a2295f5fa = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cf1eb2c29d22ca5ecff5c1c190ec6e7b = $(`<div id="html_cf1eb2c29d22ca5ecff5c1c190ec6e7b" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Maryland<br>         <b>Location:</b> College Park, MD, US<br>         <b>Number of Seats:</b> 20<br>         <b>Available Seats:</b> 19         </div>`)[0];
+                popup_50cff5f45f72b8fbaaeba07a2295f5fa.setContent(html_cf1eb2c29d22ca5ecff5c1c190ec6e7b);
+            
+        
+
+        marker_2624e0e4fbbf49607a21e029a106176b.bindPopup(popup_50cff5f45f72b8fbaaeba07a2295f5fa)
+        ;
+
+        
+    
+    
+            var marker_d085a45dbc5d1e435b44121f2dc38c99 = L.marker(
+                [32.715738, -117.1610838],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_cddfa7206de998928a5acc6fa5d79114 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a6cde49b702a33801b20a984ba93ad51 = $(`<div id="html_a6cde49b702a33801b20a984ba93ad51" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> San Diego State University<br>         <b>Location:</b> San Diego, CA, US<br>         <b>Number of Seats:</b> 15<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_cddfa7206de998928a5acc6fa5d79114.setContent(html_a6cde49b702a33801b20a984ba93ad51);
+            
+        
+
+        marker_d085a45dbc5d1e435b44121f2dc38c99.bindPopup(popup_cddfa7206de998928a5acc6fa5d79114)
+        ;
+
+        
+    
+    
+            var marker_eec9d8346ba8516eb7c9ad92c79d76e4 = L.marker(
+                [39.165325, -86.52638569999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_d5723a0b2ecf81a093c4881ddc99be00 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d579821d7561eb66ae630b9d4bb7ef6d = $(`<div id="html_d579821d7561eb66ae630b9d4bb7ef6d" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Indiana University<br>         <b>Location:</b> Bloomington, IN, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 2         </div>`)[0];
+                popup_d5723a0b2ecf81a093c4881ddc99be00.setContent(html_d579821d7561eb66ae630b9d4bb7ef6d);
+            
+        
+
+        marker_eec9d8346ba8516eb7c9ad92c79d76e4.bindPopup(popup_d5723a0b2ecf81a093c4881ddc99be00)
+        ;
+
+        
+    
+    
+            var marker_d8bd37b6106f39425ff5ff7c67dda08f = L.marker(
+                [37.7272727, -89.2167501],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_a9f97b46f7726e95b8575627de6e6a02 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_90ba84caeb0f4261be05bf6361dea920 = $(`<div id="html_90ba84caeb0f4261be05bf6361dea920" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Southern Illinois University<br>         <b>Location:</b> Carbondale, IL, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_a9f97b46f7726e95b8575627de6e6a02.setContent(html_90ba84caeb0f4261be05bf6361dea920);
+            
+        
+
+        marker_d8bd37b6106f39425ff5ff7c67dda08f.bindPopup(popup_a9f97b46f7726e95b8575627de6e6a02)
+        ;
+
+        
+    
+    
+            var marker_cdab637a03462787828b77eb724c9ca1 = L.marker(
+                [51.04473309999999, -114.0718831],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_60673a3b1f175c1edef47042b36f2a2f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b0428d7044a4240201374211822f75eb = $(`<div id="html_b0428d7044a4240201374211822f75eb" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Calgary<br>         <b>Location:</b> Calgary, AB, CA<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_60673a3b1f175c1edef47042b36f2a2f.setContent(html_b0428d7044a4240201374211822f75eb);
+            
+        
+
+        marker_cdab637a03462787828b77eb724c9ca1.bindPopup(popup_60673a3b1f175c1edef47042b36f2a2f)
+        ;
+
+        
+    
+    
+            var marker_2e64022a0bb12f1a6e25cf3e4aaf7415 = L.marker(
+                [41.2565369, -95.9345034],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_bd2cd7388d941ac68e4337e911c57c59 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fe2945bd9913883ac90998ad810a3d70 = $(`<div id="html_fe2945bd9913883ac90998ad810a3d70" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Nebraska, Omaha<br>         <b>Location:</b> Omaha, NE, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 1         </div>`)[0];
+                popup_bd2cd7388d941ac68e4337e911c57c59.setContent(html_fe2945bd9913883ac90998ad810a3d70);
+            
+        
+
+        marker_2e64022a0bb12f1a6e25cf3e4aaf7415.bindPopup(popup_bd2cd7388d941ac68e4337e911c57c59)
+        ;
+
+        
+    
+    
+            var marker_f762e7e1d06b9979bdfde010c7fba88d = L.marker(
+                [42.3732216, -72.5198537],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_fb4cac5307e6c377c14a1f999569eefb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6e7f3323962b4652091b6de25cdbcd59 = $(`<div id="html_6e7f3323962b4652091b6de25cdbcd59" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Massachusetts<br>         <b>Location:</b> Amherst, MA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_fb4cac5307e6c377c14a1f999569eefb.setContent(html_6e7f3323962b4652091b6de25cdbcd59);
+            
+        
+
+        marker_f762e7e1d06b9979bdfde010c7fba88d.bindPopup(popup_fb4cac5307e6c377c14a1f999569eefb)
+        ;
+
+        
+    
+    
+            var marker_344e596cd546b0a44ecbb3b9a86f4c58 = L.marker(
+                [53.5460983, -113.4937266],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_77b97d711d4f0712080393bc4fb4d76f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9f41037ed2030bdb15fbd25a79314991 = $(`<div id="html_9f41037ed2030bdb15fbd25a79314991" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Alberta<br>         <b>Location:</b> Edmonton, AB, CA<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_77b97d711d4f0712080393bc4fb4d76f.setContent(html_9f41037ed2030bdb15fbd25a79314991);
+            
+        
+
+        marker_344e596cd546b0a44ecbb3b9a86f4c58.bindPopup(popup_77b97d711d4f0712080393bc4fb4d76f)
+        ;
+
+        
+    
+    
+            var marker_1cc9e8ebef3333de650d0af1086f0527 = L.marker(
+                [33.6845673, -117.8265049],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_a47f0f9d7865d292fdd301391d8cf50c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b267747a7edeaa4096ef3f412ed36075 = $(`<div id="html_b267747a7edeaa4096ef3f412ed36075" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of California, Irvine<br>         <b>Location:</b> Irvine, CA, US<br>         <b>Number of Seats:</b> 10<br>         <b>Available Seats:</b> 10         </div>`)[0];
+                popup_a47f0f9d7865d292fdd301391d8cf50c.setContent(html_b267747a7edeaa4096ef3f412ed36075);
+            
+        
+
+        marker_1cc9e8ebef3333de650d0af1086f0527.bindPopup(popup_a47f0f9d7865d292fdd301391d8cf50c)
+        ;
+
+        
+    
+    
+            var marker_4c2221eaa2844bdc28426afc1506db8f = L.marker(
+                [40.8259007, -74.2090053],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_97d7b6c855dbdb0b14f9f0fe7c86bf70 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8cc514e51341a08b05fff28e152c2258 = $(`<div id="html_8cc514e51341a08b05fff28e152c2258" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Montclair State University<br>         <b>Location:</b> Montclair, NJ, US<br>         <b>Number of Seats:</b> 30<br>         <b>Available Seats:</b> 25         </div>`)[0];
+                popup_97d7b6c855dbdb0b14f9f0fe7c86bf70.setContent(html_8cc514e51341a08b05fff28e152c2258);
+            
+        
+
+        marker_4c2221eaa2844bdc28426afc1506db8f.bindPopup(popup_97d7b6c855dbdb0b14f9f0fe7c86bf70)
+        ;
+
+        
+    
+    
+            var marker_6d7621d70ef4ee439b385c389e758bf1 = L.marker(
+                [45.5018869, -73.56739189999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_6dd44ef99784de6a7cc3dd2d2c0485e5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e3d9f4dc3566dc3fe97b7e8260a7a99e = $(`<div id="html_e3d9f4dc3566dc3fe97b7e8260a7a99e" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> McGill University<br>         <b>Location:</b> Montreal, QC, CA<br>         <b>Number of Seats:</b> 50<br>         <b>Available Seats:</b> 23         </div>`)[0];
+                popup_6dd44ef99784de6a7cc3dd2d2c0485e5.setContent(html_e3d9f4dc3566dc3fe97b7e8260a7a99e);
+            
+        
+
+        marker_6d7621d70ef4ee439b385c389e758bf1.bindPopup(popup_6dd44ef99784de6a7cc3dd2d2c0485e5)
+        ;
+
+        
+    
+    
+            var marker_6c5ff03f76acfca83b81c84806bc2910 = L.marker(
+                [45.4869283, -122.804032],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_e6dd0e98e4c6dcce30b86a40fc1df408 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b4db4d09b511c5da92c678c96a334746 = $(`<div id="html_b4db4d09b511c5da92c678c96a334746" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Oregon Mathletics<br>         <b>Location:</b> Beaverton, OR, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 3         </div>`)[0];
+                popup_e6dd0e98e4c6dcce30b86a40fc1df408.setContent(html_b4db4d09b511c5da92c678c96a334746);
+            
+        
+
+        marker_6c5ff03f76acfca83b81c84806bc2910.bindPopup(popup_e6dd0e98e4c6dcce30b86a40fc1df408)
+        ;
+
+        
+    
+    
+            var marker_9da203acd6b66987ab713124d9e1ffaf = L.marker(
+                [42.6334247, -71.31617179999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_7d6eeb93eb3ca5a815f91bff84da6e0e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1baaa5408a9bdde7a1105d16dc8641e9 = $(`<div id="html_1baaa5408a9bdde7a1105d16dc8641e9" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Massachusetts, Lowell<br>         <b>Location:</b> Lowell, MA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_7d6eeb93eb3ca5a815f91bff84da6e0e.setContent(html_1baaa5408a9bdde7a1105d16dc8641e9);
+            
+        
+
+        marker_9da203acd6b66987ab713124d9e1ffaf.bindPopup(popup_7d6eeb93eb3ca5a815f91bff84da6e0e)
+        ;
+
+        
+    
+    
+            var marker_8aa63c5d9285710d7c71962e93ef9f20 = L.marker(
+                [33.7700504, -118.1937395],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_4eac55b0c54d2c7a01f476c6b102c4b4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c3cab689d25607afb4beada046507c8a = $(`<div id="html_c3cab689d25607afb4beada046507c8a" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> California State University (at SATO High School for Open Round)<br>         <b>Location:</b> Long Beach, CA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 11         </div>`)[0];
+                popup_4eac55b0c54d2c7a01f476c6b102c4b4.setContent(html_c3cab689d25607afb4beada046507c8a);
+            
+        
+
+        marker_8aa63c5d9285710d7c71962e93ef9f20.bindPopup(popup_4eac55b0c54d2c7a01f476c6b102c4b4)
+        ;
+
+        
+    
+    
+            var marker_727c3f71782dd837de3f26e6d72eaf30 = L.marker(
+                [30.267153, -97.7430608],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_c7ef937ab475c8cf1ccc710f7f7a56e2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ddbd75486b260111538209bdfe108492 = $(`<div id="html_ddbd75486b260111538209bdfe108492" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Austin Math Circle<br>         <b>Location:</b> Austin, TX, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_c7ef937ab475c8cf1ccc710f7f7a56e2.setContent(html_ddbd75486b260111538209bdfe108492);
+            
+        
+
+        marker_727c3f71782dd837de3f26e6d72eaf30.bindPopup(popup_c7ef937ab475c8cf1ccc710f7f7a56e2)
+        ;
+
+        
+    
+    
+            var marker_85f3855657d9170a64d9475903c5de91 = L.marker(
+                [38.0405837, -84.5037164],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_2005d3f4b888940836dde926b7c67d4d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ca5dbdf47ec173d153cd70fcb53e8762 = $(`<div id="html_ca5dbdf47ec173d153cd70fcb53e8762" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Kentucky<br>         <b>Location:</b> Lexington, KY, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_2005d3f4b888940836dde926b7c67d4d.setContent(html_ca5dbdf47ec173d153cd70fcb53e8762);
+            
+        
+
+        marker_85f3855657d9170a64d9475903c5de91.bindPopup(popup_2005d3f4b888940836dde926b7c67d4d)
+        ;
+
+        
+    
+    
+            var marker_2f7021e8497631a05ae496deba3963da = L.marker(
+                [41.7001908, -86.23793280000001],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_494f28fd37b16360530c93e00f783034 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_af8070c6835b013dda34624de1b8f5b2 = $(`<div id="html_af8070c6835b013dda34624de1b8f5b2" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Notre Dame<br>         <b>Location:</b> Notre Dame, IN, US<br>         <b>Number of Seats:</b> 10<br>         <b>Available Seats:</b> 2         </div>`)[0];
+                popup_494f28fd37b16360530c93e00f783034.setContent(html_af8070c6835b013dda34624de1b8f5b2);
+            
+        
+
+        marker_2f7021e8497631a05ae496deba3963da.bindPopup(popup_494f28fd37b16360530c93e00f783034)
+        ;
+
+        
+    
+    
+            var marker_0afd388bc77198d0c154684d702aa8d8 = L.marker(
+                [30.3321838, -81.65565099999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_78d599b236b76b92f3d247d7312a33ff = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_57ab2640532f899b49629ac8e6605786 = $(`<div id="html_57ab2640532f899b49629ac8e6605786" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Keiser University, Jacksonville<br>         <b>Location:</b> Jacksonville, FL, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_78d599b236b76b92f3d247d7312a33ff.setContent(html_57ab2640532f899b49629ac8e6605786);
+            
+        
+
+        marker_0afd388bc77198d0c154684d702aa8d8.bindPopup(popup_78d599b236b76b92f3d247d7312a33ff)
+        ;
+
+        
+    
+    
+            var marker_c976bdfcd9fc433c8b9b8bb211dda34a = L.marker(
+                [39.18360819999999, -96.57166939999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_c47afc1bb5532cc920dce9db0585d1cf = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6a7fd47693e9bbaab397e09ad815b37a = $(`<div id="html_6a7fd47693e9bbaab397e09ad815b37a" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Kansas State University<br>         <b>Location:</b> Manhattan, KS, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_c47afc1bb5532cc920dce9db0585d1cf.setContent(html_6a7fd47693e9bbaab397e09ad815b37a);
+            
+        
+
+        marker_c976bdfcd9fc433c8b9b8bb211dda34a.bindPopup(popup_c47afc1bb5532cc920dce9db0585d1cf)
+        ;
+
+        
+    
+    
+            var marker_b5df9d5b1474bdc8e9470ffea3eb0c22 = L.marker(
+                [42.0450722, -87.68769689999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_e311dda92887a5b33f8737eaeecade21 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e0d3c0906225d0c2a0f41148cfef6861 = $(`<div id="html_e0d3c0906225d0c2a0f41148cfef6861" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Northwestern University Chicago<br>         <b>Location:</b> Evanston, IL, US<br>         <b>Number of Seats:</b> 30<br>         <b>Available Seats:</b> 17         </div>`)[0];
+                popup_e311dda92887a5b33f8737eaeecade21.setContent(html_e0d3c0906225d0c2a0f41148cfef6861);
+            
+        
+
+        marker_b5df9d5b1474bdc8e9470ffea3eb0c22.bindPopup(popup_e311dda92887a5b33f8737eaeecade21)
+        ;
+
+        
+    
+    
+            var marker_c1e820dbd76183ebf44739d373f683bf = L.marker(
+                [40.8131553, -73.5673482],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_e43cf264f1ae881adb9fadfc96ecc791 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_65507ed6208a04fe95b8d27600dd4c40 = $(`<div id="html_65507ed6208a04fe95b8d27600dd4c40" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Long Island University Post<br>         <b>Location:</b> Brookville, NY, US<br>         <b>Number of Seats:</b> 15<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_e43cf264f1ae881adb9fadfc96ecc791.setContent(html_65507ed6208a04fe95b8d27600dd4c40);
+            
+        
+
+        marker_c1e820dbd76183ebf44739d373f683bf.bindPopup(popup_e43cf264f1ae881adb9fadfc96ecc791)
+        ;
+
+        
+    
+    
+            var marker_d4a68502c04436270675c8b6911c8bdd = L.marker(
+                [34.0549076, -118.242643],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_655e195b0dda245e6f4862ba874ba320 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3e57d9ec19b1f00bdfd2caf31e7e7ee2 = $(`<div id="html_3e57d9ec19b1f00bdfd2caf31e7e7ee2" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> UCLA<br>         <b>Location:</b> Los Angeles, CA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 15         </div>`)[0];
+                popup_655e195b0dda245e6f4862ba874ba320.setContent(html_3e57d9ec19b1f00bdfd2caf31e7e7ee2);
+            
+        
+
+        marker_d4a68502c04436270675c8b6911c8bdd.bindPopup(popup_655e195b0dda245e6f4862ba874ba320)
+        ;
+
+        
+    
+    
+            var marker_470c3bf3fabcaab7066fb86ac2552287 = L.marker(
+                [32.2539787, -110.9741769],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_c60692a484cee9ea146a1d4935b7f1ac = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_023bf49b7589a387cfc05b499d902918 = $(`<div id="html_023bf49b7589a387cfc05b499d902918" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Arizona<br>         <b>Location:</b> Tucson, AZ, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 8         </div>`)[0];
+                popup_c60692a484cee9ea146a1d4935b7f1ac.setContent(html_023bf49b7589a387cfc05b499d902918);
+            
+        
+
+        marker_470c3bf3fabcaab7066fb86ac2552287.bindPopup(popup_c60692a484cee9ea146a1d4935b7f1ac)
+        ;
+
+        
+    
+    
+            var marker_9636fe424bea80ee20d42105a36278ff = L.marker(
+                [52.157902, -106.6701577],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_78894f3f8ee4d0976c92164445a44f71 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4293353d83bcdc71378ce2232e8e3717 = $(`<div id="html_4293353d83bcdc71378ce2232e8e3717" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Saskatchewan<br>         <b>Location:</b> Saskatoon, SK, CA<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_78894f3f8ee4d0976c92164445a44f71.setContent(html_4293353d83bcdc71378ce2232e8e3717);
+            
+        
+
+        marker_9636fe424bea80ee20d42105a36278ff.bindPopup(popup_78894f3f8ee4d0976c92164445a44f71)
+        ;
+
+        
+    
+    
+            var marker_7e91d2ae79faa21724f3b63a5e36783e = L.marker(
+                [43.6590993, -70.2568189],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_a814486abdc3fa88d28ad0c4310a5670 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_705a448815653f44ce906403f5957f7f = $(`<div id="html_705a448815653f44ce906403f5957f7f" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Southern Maine<br>         <b>Location:</b> Portland, ME, US<br>         <b>Number of Seats:</b> 20<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_a814486abdc3fa88d28ad0c4310a5670.setContent(html_705a448815653f44ce906403f5957f7f);
+            
+        
+
+        marker_7e91d2ae79faa21724f3b63a5e36783e.bindPopup(popup_a814486abdc3fa88d28ad0c4310a5670)
+        ;
+
+        
+    
+    
+            var marker_6f11ed2b28313131ca3678e5f0138ec4 = L.marker(
+                [39.6837226, -75.74965720000002],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_d682ebee10acbf7813e8f5b61c46568b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_35a231970ddc6b5c94febb8e663f5010 = $(`<div id="html_35a231970ddc6b5c94febb8e663f5010" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Delaware<br>         <b>Location:</b> Newark, DE, US<br>         <b>Number of Seats:</b> 40<br>         <b>Available Seats:</b> 2         </div>`)[0];
+                popup_d682ebee10acbf7813e8f5b61c46568b.setContent(html_35a231970ddc6b5c94febb8e663f5010);
+            
+        
+
+        marker_6f11ed2b28313131ca3678e5f0138ec4.bindPopup(popup_d682ebee10acbf7813e8f5b61c46568b)
+        ;
+
+        
+    
+    
+            var marker_d0ef96f653efb6574ae76ffcc0ca77c2 = L.marker(
+                [29.6519563, -82.324998],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_d273bff12196c077a03e3f1c2da19e65 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_732d18e084d3f011fd303dcfca43b2c5 = $(`<div id="html_732d18e084d3f011fd303dcfca43b2c5" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Florida<br>         <b>Location:</b> Gainesville, FL, US<br>         <b>Number of Seats:</b> 30<br>         <b>Available Seats:</b> 8         </div>`)[0];
+                popup_d273bff12196c077a03e3f1c2da19e65.setContent(html_732d18e084d3f011fd303dcfca43b2c5);
+            
+        
+
+        marker_d0ef96f653efb6574ae76ffcc0ca77c2.bindPopup(popup_d273bff12196c077a03e3f1c2da19e65)
+        ;
+
+        
+    
+    
+            var marker_a1fef5ec01a230af6f5fc4868fbefc0a = L.marker(
+                [34.0008322, -81.035147],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_58526367c62927cbd721d9d142c1cd61 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ac0447d2572daa3862612dc4b33b225f = $(`<div id="html_ac0447d2572daa3862612dc4b33b225f" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of South Carolina<br>         <b>Location:</b> Columbia, SC, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 14         </div>`)[0];
+                popup_58526367c62927cbd721d9d142c1cd61.setContent(html_ac0447d2572daa3862612dc4b33b225f);
+            
+        
+
+        marker_a1fef5ec01a230af6f5fc4868fbefc0a.bindPopup(popup_58526367c62927cbd721d9d142c1cd61)
+        ;
+
+        
+    
+    
+            var marker_2610fe5e8e0d140b52fc9652d864d807 = L.marker(
+                [29.4251905, -98.4945922],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_f4237e254028d9bc4ea073a2f1dab7dd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_791c70ed327cedbc514f87d3a9241522 = $(`<div id="html_791c70ed327cedbc514f87d3a9241522" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Texas at San Antonio<br>         <b>Location:</b> San Antonio, TX, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 3         </div>`)[0];
+                popup_f4237e254028d9bc4ea073a2f1dab7dd.setContent(html_791c70ed327cedbc514f87d3a9241522);
+            
+        
+
+        marker_2610fe5e8e0d140b52fc9652d864d807.bindPopup(popup_f4237e254028d9bc4ea073a2f1dab7dd)
+        ;
+
+        
+    
+    
+            var marker_9f172855313b36d49bdae6d426b5f978 = L.marker(
+                [41.8781136, -87.6297982],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_19b06c8ee8ff0cc8b82f0d229eedf992 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5c870aff33f03e06daad4b51bd0894b5 = $(`<div id="html_5c870aff33f03e06daad4b51bd0894b5" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Northeastern Illinois University<br>         <b>Location:</b> Chicago, IL, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_19b06c8ee8ff0cc8b82f0d229eedf992.setContent(html_5c870aff33f03e06daad4b51bd0894b5);
+            
+        
+
+        marker_9f172855313b36d49bdae6d426b5f978.bindPopup(popup_19b06c8ee8ff0cc8b82f0d229eedf992)
+        ;
+
+        
+    
+    
+            var marker_10ea787e08794054d2b3b7f98d4877b2 = L.marker(
+                [32.8328112, -117.2712717],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_a298598a2a39426b613a6ad4665e7f7a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_dc2273ba6d57e0b35895cfd4edb5d77a = $(`<div id="html_dc2273ba6d57e0b35895cfd4edb5d77a" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of California, San Diego<br>         <b>Location:</b> La Jolla, CA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 15         </div>`)[0];
+                popup_a298598a2a39426b613a6ad4665e7f7a.setContent(html_dc2273ba6d57e0b35895cfd4edb5d77a);
+            
+        
+
+        marker_10ea787e08794054d2b3b7f98d4877b2.bindPopup(popup_a298598a2a39426b613a6ad4665e7f7a)
+        ;
+
+        
+    
+    
+            var marker_a34ead3d502cd0ecc2e4b467d5d9ab24 = L.marker(
+                [33.8316745, -118.281693],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_5c6f38b0c2b63ea9c79d3124d7fb4208 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0201efe7ed306de063d36d3a84d48d37 = $(`<div id="html_0201efe7ed306de063d36d3a84d48d37" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> California State University Dominguez Hills<br>         <b>Location:</b> Carson, CA, US<br>         <b>Number of Seats:</b> 25<br>         <b>Available Seats:</b> 1         </div>`)[0];
+                popup_5c6f38b0c2b63ea9c79d3124d7fb4208.setContent(html_0201efe7ed306de063d36d3a84d48d37);
+            
+        
+
+        marker_a34ead3d502cd0ecc2e4b467d5d9ab24.bindPopup(popup_5c6f38b0c2b63ea9c79d3124d7fb4208)
+        ;
+
+        
+    
+    
+            var marker_58691caf5ff6e870543f4981f8d97137 = L.marker(
+                [38.8791783, -99.3267702],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_5f5ad2ec0a0e5f5a196d97a2bdbaa193 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_84c508646ae80097904cc94561285898 = $(`<div id="html_84c508646ae80097904cc94561285898" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Fort Hays State University<br>         <b>Location:</b> Hays, KS, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_5f5ad2ec0a0e5f5a196d97a2bdbaa193.setContent(html_84c508646ae80097904cc94561285898);
+            
+        
+
+        marker_58691caf5ff6e870543f4981f8d97137.bindPopup(popup_5f5ad2ec0a0e5f5a196d97a2bdbaa193)
+        ;
+
+        
+    
+    
+            var marker_2bdcd27fd02034aa0e2534ffa3cb9949 = L.marker(
+                [33.7501275, -84.3885209],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_d68536db1040e9675ae85f2613a40155 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_855e67398b230797e7389248f460ddee = $(`<div id="html_855e67398b230797e7389248f460ddee" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Georgia Tech<br>         <b>Location:</b> Atlanta, GA, US<br>         <b>Number of Seats:</b> 40<br>         <b>Available Seats:</b> 37         </div>`)[0];
+                popup_d68536db1040e9675ae85f2613a40155.setContent(html_855e67398b230797e7389248f460ddee);
+            
+        
+
+        marker_2bdcd27fd02034aa0e2534ffa3cb9949.bindPopup(popup_d68536db1040e9675ae85f2613a40155)
+        ;
+
+        
+    
+    
+            var marker_d6173040f8c1fcf1a9f8503d100a9733 = L.marker(
+                [42.88644679999999, -78.8783689],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_c0dcd50720c577748d8989325a7303ba = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_85aed1b27b70a159bd61f48dd3ffe67e = $(`<div id="html_85aed1b27b70a159bd61f48dd3ffe67e" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University at Buffalo<br>         <b>Location:</b> Buffalo, NY, US<br>         <b>Number of Seats:</b> 5<br>         <b>Available Seats:</b> 6         </div>`)[0];
+                popup_c0dcd50720c577748d8989325a7303ba.setContent(html_85aed1b27b70a159bd61f48dd3ffe67e);
+            
+        
+
+        marker_d6173040f8c1fcf1a9f8503d100a9733.bindPopup(popup_c0dcd50720c577748d8989325a7303ba)
+        ;
+
+        
+    
+    
+            var marker_82ab66f0e44db67e408f5adfc0eed29d = L.marker(
+                [37.68717609999999, -97.33005299999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_d195422f1801691d9ec0696f06839c00 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c352b5c8a8636c80e73d9dee9078f6a9 = $(`<div id="html_c352b5c8a8636c80e73d9dee9078f6a9" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Wichita State University<br>         <b>Location:</b> Wichita, KS, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 1         </div>`)[0];
+                popup_d195422f1801691d9ec0696f06839c00.setContent(html_c352b5c8a8636c80e73d9dee9078f6a9);
+            
+        
+
+        marker_82ab66f0e44db67e408f5adfc0eed29d.bindPopup(popup_d195422f1801691d9ec0696f06839c00)
+        ;
+
+        
+    
+    
+            var marker_04c025b6616415adde0a1c218c8cf863 = L.marker(
+                [28.5999998, -81.33923519999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_04e1e36d2ef902a470fbad529ebc77f9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5fd550842052f698949e75a70e431f61 = $(`<div id="html_5fd550842052f698949e75a70e431f61" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Rollins College<br>         <b>Location:</b> Winter Park, FL, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 1         </div>`)[0];
+                popup_04e1e36d2ef902a470fbad529ebc77f9.setContent(html_5fd550842052f698949e75a70e431f61);
+            
+        
+
+        marker_04c025b6616415adde0a1c218c8cf863.bindPopup(popup_04e1e36d2ef902a470fbad529ebc77f9)
+        ;
+
+        
+    
+    
+            var marker_6a4b849a4e63ed58353ecdc50d50172a = L.marker(
+                [49.2827291, -123.1207375],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_9fa57f3280b643b964f6c58a9dea13f0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_da8468525cc77f70002c4ba7098196d7 = $(`<div id="html_da8468525cc77f70002c4ba7098196d7" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Opus Academy (only open to Opus students)<br>         <b>Location:</b> Vancouver, BC, CA<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_9fa57f3280b643b964f6c58a9dea13f0.setContent(html_da8468525cc77f70002c4ba7098196d7);
+            
+        
+
+        marker_6a4b849a4e63ed58353ecdc50d50172a.bindPopup(popup_9fa57f3280b643b964f6c58a9dea13f0)
+        ;
+
+        
+    
+    
+            var marker_a04b973016fb736d4ba954659cf50fc4 = L.marker(
+                [38.9071923, -77.0368707],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_d5a643729062ae822e7a7492517f6574 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_695e16eccdfb90791d5afea970624b61 = $(`<div id="html_695e16eccdfb90791d5afea970624b61" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Planet Word Museum (DC area site)<br>         <b>Location:</b> Washington, DC, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_d5a643729062ae822e7a7492517f6574.setContent(html_695e16eccdfb90791d5afea970624b61);
+            
+        
+
+        marker_a04b973016fb736d4ba954659cf50fc4.bindPopup(popup_d5a643729062ae822e7a7492517f6574)
+        ;
+
+        
+    
+    
+            var marker_7903ed069009d8c8402eaf944e42496a = L.marker(
+                [43.7615377, -79.41107939999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_34628604d7f726cc8caab181be447508 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bef593aa62bb7af5788b49b974f0891b = $(`<div id="html_bef593aa62bb7af5788b49b974f0891b" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Tyndale University<br>         <b>Location:</b> North York, ON, CA<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 1         </div>`)[0];
+                popup_34628604d7f726cc8caab181be447508.setContent(html_bef593aa62bb7af5788b49b974f0891b);
+            
+        
+
+        marker_7903ed069009d8c8402eaf944e42496a.bindPopup(popup_34628604d7f726cc8caab181be447508)
+        ;
+
+        
+    
+    
+            var marker_6156b913f9eec1abdba885d462de6f64 = L.marker(
+                [26.3683064, -80.1289321],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_36ad10e695086c5f9bbc370cf5e225e2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_20c7d33845e5e384a682120aa42d204a = $(`<div id="html_20c7d33845e5e384a682120aa42d204a" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Florida Atlantic University<br>         <b>Location:</b> Boca Raton, FL, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 5         </div>`)[0];
+                popup_36ad10e695086c5f9bbc370cf5e225e2.setContent(html_20c7d33845e5e384a682120aa42d204a);
+            
+        
+
+        marker_6156b913f9eec1abdba885d462de6f64.bindPopup(popup_36ad10e695086c5f9bbc370cf5e225e2)
+        ;
+
+        
+    
+    
+            var marker_753107034c61cfd749db4bf3a5eaaf00 = L.marker(
+                [27.9516896, -82.45875269999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_88ce6f59a8d54ee0a2b93b26574359ec = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bfc45d5a86a8ec8492960f3ff4a025dc = $(`<div id="html_bfc45d5a86a8ec8492960f3ff4a025dc" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of South Florida<br>         <b>Location:</b> Tampa, FL, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 9         </div>`)[0];
+                popup_88ce6f59a8d54ee0a2b93b26574359ec.setContent(html_bfc45d5a86a8ec8492960f3ff4a025dc);
+            
+        
+
+        marker_753107034c61cfd749db4bf3a5eaaf00.bindPopup(popup_88ce6f59a8d54ee0a2b93b26574359ec)
+        ;
+
+        
+    
+    
+            var marker_ec4985d6ebfea61d43c5a39d18b138b2 = L.marker(
+                [49.1041779, -122.6603519],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_d2550fd149e8b9b0b6b6a052b68cebb5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4e26f142b727092a72fa929aff6a0210 = $(`<div id="html_4e26f142b727092a72fa929aff6a0210" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Trinity Western University Canada Institute of Linguistics<br>         <b>Location:</b> Langley, BC, CA<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_d2550fd149e8b9b0b6b6a052b68cebb5.setContent(html_4e26f142b727092a72fa929aff6a0210);
+            
+        
+
+        marker_ec4985d6ebfea61d43c5a39d18b138b2.bindPopup(popup_d2550fd149e8b9b0b6b6a052b68cebb5)
+        ;
+
+        
+    
+    
+            var marker_82f85e6e0b1fcd3a70074b16c35b6c98 = L.marker(
+                [37.8715226, -122.273042],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_3a333fcb8b776a353c1a6af9a0ac1d04 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d348d62fa996fe5a97bd9ee0bebd9b0a = $(`<div id="html_d348d62fa996fe5a97bd9ee0bebd9b0a" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of California, Berkeley<br>         <b>Location:</b> Berkeley, CA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 9         </div>`)[0];
+                popup_3a333fcb8b776a353c1a6af9a0ac1d04.setContent(html_d348d62fa996fe5a97bd9ee0bebd9b0a);
+            
+        
+
+        marker_82f85e6e0b1fcd3a70074b16c35b6c98.bindPopup(popup_3a333fcb8b776a353c1a6af9a0ac1d04)
+        ;
+
+        
+    
+    
+            var marker_2e0b727f2d8c71ebf11217ebf2c51b88 = L.marker(
+                [35.9131996, -79.0558445],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_dd50aed2eec9453b54ae75e1b5198169 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_27da5aea3f90ded7df07584963ee67ab = $(`<div id="html_27da5aea3f90ded7df07584963ee67ab" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of North Carolina at Chapel Hill<br>         <b>Location:</b> Chapel Hill, NC, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 18         </div>`)[0];
+                popup_dd50aed2eec9453b54ae75e1b5198169.setContent(html_27da5aea3f90ded7df07584963ee67ab);
+            
+        
+
+        marker_2e0b727f2d8c71ebf11217ebf2c51b88.bindPopup(popup_dd50aed2eec9453b54ae75e1b5198169)
+        ;
+
+        
+    
+    
+            var marker_9bec71995826163c4d69d863a29dfe3a = L.marker(
+                [40.7127753, -74.0059728],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_cb33983e278b0f157b52925526970a13 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fd7ee31292549b81430730ac8460c66d = $(`<div id="html_fd7ee31292549b81430730ac8460c66d" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Graduate Center, City University of New York<br>         <b>Location:</b> New York, NY, US<br>         <b>Number of Seats:</b> 30<br>         <b>Available Seats:</b> 27         </div>`)[0];
+                popup_cb33983e278b0f157b52925526970a13.setContent(html_fd7ee31292549b81430730ac8460c66d);
+            
+        
+
+        marker_9bec71995826163c4d69d863a29dfe3a.bindPopup(popup_cb33983e278b0f157b52925526970a13)
+        ;
+
+        
+    
+    
+            var marker_81cef49e590fc898e153817f03b4f7b7 = L.marker(
+                [44.2619309, -88.41538469999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_3323de20624b22006eb4dd9a4277cb26 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d3be01f67cb834e20451ce3461ff30d7 = $(`<div id="html_d3be01f67cb834e20451ce3461ff30d7" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Lawrence University<br>         <b>Location:</b> Appleton, WI, US<br>         <b>Number of Seats:</b> 12<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_3323de20624b22006eb4dd9a4277cb26.setContent(html_d3be01f67cb834e20451ce3461ff30d7);
+            
+        
+
+        marker_81cef49e590fc898e153817f03b4f7b7.bindPopup(popup_3323de20624b22006eb4dd9a4277cb26)
+        ;
+
+        
+    
+    
+            var marker_1a3a401aa46a1979295c1d90c25ac4a2 = L.marker(
+                [17.7227672, -64.78223679999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_d0699efeb1015d17ca127fc6fb792a00 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4f98e6197ae8b5a60155d21d28d1d4a3 = $(`<div id="html_4f98e6197ae8b5a60155d21d28d1d4a3" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of the Virgin Islands<br>         <b>Location:</b> Kingshill, VI, US<br>         <b>Number of Seats:</b> 20<br>         <b>Available Seats:</b> 13         </div>`)[0];
+                popup_d0699efeb1015d17ca127fc6fb792a00.setContent(html_4f98e6197ae8b5a60155d21d28d1d4a3);
+            
+        
+
+        marker_1a3a401aa46a1979295c1d90c25ac4a2.bindPopup(popup_d0699efeb1015d17ca127fc6fb792a00)
+        ;
+
+        
+    
+    
+            var marker_ee75c0328c6936676f4b354ebc606dad = L.marker(
+                [46.7297771, -117.1817377],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_5079218de01947b05df7ef05886809ab = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_eb6d1c5ec325522204bd6264134b7d02 = $(`<div id="html_eb6d1c5ec325522204bd6264134b7d02" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Washington State University<br>         <b>Location:</b> Pullman, WA, US<br>         <b>Number of Seats:</b> 15<br>         <b>Available Seats:</b> 5         </div>`)[0];
+                popup_5079218de01947b05df7ef05886809ab.setContent(html_eb6d1c5ec325522204bd6264134b7d02);
+            
+        
+
+        marker_ee75c0328c6936676f4b354ebc606dad.bindPopup(popup_5079218de01947b05df7ef05886809ab)
+        ;
+
+        
+    
+    
+            var marker_31c1ca12964d6c5368181a844e005459 = L.marker(
+                [41.8239891, -71.4128343],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_9b49e9a81b1752b71c7453746f81a349 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4812fbe51a35c23231b8c0324443e84c = $(`<div id="html_4812fbe51a35c23231b8c0324443e84c" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Brown University<br>         <b>Location:</b> Providence, RI, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 3         </div>`)[0];
+                popup_9b49e9a81b1752b71c7453746f81a349.setContent(html_4812fbe51a35c23231b8c0324443e84c);
+            
+        
+
+        marker_31c1ca12964d6c5368181a844e005459.bindPopup(popup_9b49e9a81b1752b71c7453746f81a349)
+        ;
+
+        
+    
+    
+            var marker_dc7dcc64929368b9d2b4776d84aa1c87 = L.marker(
+                [41.8781136, -87.6297982],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_bde90a24f0c5cf869a121c87e7e23cb2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3383067afc8fe9e33c4c492e781010ab = $(`<div id="html_3383067afc8fe9e33c4c492e781010ab" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Illinois at Chicago<br>         <b>Location:</b> Chicago, IL, US<br>         <b>Number of Seats:</b> 30<br>         <b>Available Seats:</b> 28         </div>`)[0];
+                popup_bde90a24f0c5cf869a121c87e7e23cb2.setContent(html_3383067afc8fe9e33c4c492e781010ab);
+            
+        
+
+        marker_dc7dcc64929368b9d2b4776d84aa1c87.bindPopup(popup_bde90a24f0c5cf869a121c87e7e23cb2)
+        ;
+
+        
+    
+    
+            var marker_00ac98cf4471c9d5b9bc52be13259c5b = L.marker(
+                [44.977753, -93.2650108],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_31ff49e76554d145d21f5bfe39c79bdb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6f0499308ecf2d024f882fcc0ead0a98 = $(`<div id="html_6f0499308ecf2d024f882fcc0ead0a98" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Minnesota<br>         <b>Location:</b> Minneapolis, MN, US<br>         <b>Number of Seats:</b> 30<br>         <b>Available Seats:</b> 12         </div>`)[0];
+                popup_31ff49e76554d145d21f5bfe39c79bdb.setContent(html_6f0499308ecf2d024f882fcc0ead0a98);
+            
+        
+
+        marker_00ac98cf4471c9d5b9bc52be13259c5b.bindPopup(popup_31ff49e76554d145d21f5bfe39c79bdb)
+        ;
+
+        
+    
+    
+            var marker_f1aa7bc031266c874b968c1736055a65 = L.marker(
+                [19.7216023, -155.084887],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_6cea85d9b64fa51c0126ad3aefde4e0a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_546bedddec1da2ca7bb7297e1184331f = $(`<div id="html_546bedddec1da2ca7bb7297e1184331f" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Hawaii at Hilo<br>         <b>Location:</b> Hilo, HI, US<br>         <b>Number of Seats:</b> 20<br>         <b>Available Seats:</b> 1         </div>`)[0];
+                popup_6cea85d9b64fa51c0126ad3aefde4e0a.setContent(html_546bedddec1da2ca7bb7297e1184331f);
+            
+        
+
+        marker_f1aa7bc031266c874b968c1736055a65.bindPopup(popup_6cea85d9b64fa51c0126ad3aefde4e0a)
+        ;
+
+        
+    
+    
+            var marker_f865f2ccb2a94b694a718e7121a3578a = L.marker(
+                [40.4862157, -74.4518188],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_c7dbe668038179a6eff5b77e2d178d8f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ea8c0eeb844b2a21b48c060395477fc5 = $(`<div id="html_ea8c0eeb844b2a21b48c060395477fc5" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Rutgers University<br>         <b>Location:</b> New Brunswick, NJ, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 4         </div>`)[0];
+                popup_c7dbe668038179a6eff5b77e2d178d8f.setContent(html_ea8c0eeb844b2a21b48c060395477fc5);
+            
+        
+
+        marker_f865f2ccb2a94b694a718e7121a3578a.bindPopup(popup_c7dbe668038179a6eff5b77e2d178d8f)
+        ;
+
+        
+    
+    
+            var marker_91e6ee3e858be6fdb903e19f582c3412 = L.marker(
+                [44.8484524, -123.2339888],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_54f8a988ef60dc3ec0aa775215e4d872 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0b2b0356cd0ca549399379a3f2423e62 = $(`<div id="html_0b2b0356cd0ca549399379a3f2423e62" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Western Oregon University<br>         <b>Location:</b> Monmouth, OR, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 8         </div>`)[0];
+                popup_54f8a988ef60dc3ec0aa775215e4d872.setContent(html_0b2b0356cd0ca549399379a3f2423e62);
+            
+        
+
+        marker_91e6ee3e858be6fdb903e19f582c3412.bindPopup(popup_54f8a988ef60dc3ec0aa775215e4d872)
+        ;
+
+        
+    
+    
+            var marker_a351795f10ec1cffb50577ed354cfe36 = L.marker(
+                [42.3600825, -71.0588801],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_d6a45a3c8685f428be247a3dcea9084c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1f965c723da7dbaee5cf9c89ed305cbd = $(`<div id="html_1f965c723da7dbaee5cf9c89ed305cbd" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Northeastern University<br>         <b>Location:</b> Boston, MA, US<br>         <b>Number of Seats:</b> 20<br>         <b>Available Seats:</b> 2         </div>`)[0];
+                popup_d6a45a3c8685f428be247a3dcea9084c.setContent(html_1f965c723da7dbaee5cf9c89ed305cbd);
+            
+        
+
+        marker_a351795f10ec1cffb50577ed354cfe36.bindPopup(popup_d6a45a3c8685f428be247a3dcea9084c)
+        ;
+
+        
+    
+    
+            var marker_4b6e8c2117d2ce62ecfcbc913d40cd46 = L.marker(
+                [34.0549076, -118.242643],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_6ac10d138ca7538e07c0081a00b115dd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d4691e5adb192008ca39359d7cdd0562 = $(`<div id="html_d4691e5adb192008ca39359d7cdd0562" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> University of Southern California<br>         <b>Location:</b> Los Angeles, CA, US<br>         <b>Number of Seats:</b> 10<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_6ac10d138ca7538e07c0081a00b115dd.setContent(html_d4691e5adb192008ca39359d7cdd0562);
+            
+        
+
+        marker_4b6e8c2117d2ce62ecfcbc913d40cd46.bindPopup(popup_6ac10d138ca7538e07c0081a00b115dd)
+        ;
+
+        
+    
+    
+            var marker_09d5f920f8603de0aed842e9fd941c99 = L.marker(
+                [37.4137536, -79.14224639999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_544d6c182666542d7852f259e7f66b8b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_40cb896ce6ad232cb44b9a57028b39b2 = $(`<div id="html_40cb896ce6ad232cb44b9a57028b39b2" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> Community College of Central Virginia<br>         <b>Location:</b> Lynchburg, VA, US<br>         <b>Number of Seats:</b> 0<br>         <b>Available Seats:</b> 1         </div>`)[0];
+                popup_544d6c182666542d7852f259e7f66b8b.setContent(html_40cb896ce6ad232cb44b9a57028b39b2);
+            
+        
+
+        marker_09d5f920f8603de0aed842e9fd941c99.bindPopup(popup_544d6c182666542d7852f259e7f66b8b)
+        ;
+
+        
+    
+    
+            var marker_48f1095ca4f2a74e5b3419cc608864d9 = L.marker(
+                [36.7377981, -119.7871247],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_e4e1e1c70ec1e02066506926b273716f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a405f4479f03d2d7be663bd7773d9e0f = $(`<div id="html_a405f4479f03d2d7be663bd7773d9e0f" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> California State University--Fresno<br>         <b>Location:</b> Fresno, CA, US<br>         <b>Number of Seats:</b> 10<br>         <b>Available Seats:</b> 0         </div>`)[0];
+                popup_e4e1e1c70ec1e02066506926b273716f.setContent(html_a405f4479f03d2d7be663bd7773d9e0f);
+            
+        
+
+        marker_48f1095ca4f2a74e5b3419cc608864d9.bindPopup(popup_e4e1e1c70ec1e02066506926b273716f)
+        ;
+
+        
+    
+    
+            var marker_18491d8017c4547de219efc2f494a4a5 = L.marker(
+                [38.84622359999999, -77.30637329999999],
+                {}
+            ).addTo(marker_cluster_c3774f05d4db783737ccd73af0eba47f);
+        
+    
+        var popup_b0cd1eac9ed09324671fb5e58a084449 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bf6cba94f6310472c8322388cf635aee = $(`<div id="html_bf6cba94f6310472c8322388cf635aee" style="width: 100.0%; height: 100.0%;">         <b>Site Name:</b> George Mason University<br>         <b>Location:</b> Fairfax, VA, US<br>         <b>Number of Seats:</b> 10<br>         <b>Available Seats:</b> 1         </div>`)[0];
+                popup_b0cd1eac9ed09324671fb5e58a084449.setContent(html_bf6cba94f6310472c8322388cf635aee);
+            
+        
+
+        marker_18491d8017c4547de219efc2f494a4a5.bindPopup(popup_b0cd1eac9ed09324671fb5e58a084449)
+        ;
+
+        
+    
+    
+            marker_cluster_c3774f05d4db783737ccd73af0eba47f.addTo(map_14fb1949fe42ff39dd1ffcd192396c1a);
+        
+</script>
+</html>
