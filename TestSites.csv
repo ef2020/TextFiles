@@ -1,0 +1,35 @@
+﻿id,city,state,country,capacity,registered
+9,New York,NY,US,30,38
+10,Ithaca,NY,US,30,11
+11,Halifax,NS,CA,5,0
+13,Washington,DC,US,20,20
+14,Baltimore,MD,US,30,20
+17,Murfreesboro,TN,US,12,8
+18,Mankato,MN,US,6,1
+20,Columbus,OH,US,50,21
+21,Princeton,NJ,US,30,39
+23,Burnaby,BC,CA,12,9
+24,Stanford,CA,US,0,61
+25,Stony Brook,NY,US,25,19
+26,Schenectady,NY,US,15,12
+27,Milwaukee,WI,US,50,25
+30,Vancouver,BC,CA,30,30
+31,Boulder,CO,US,6,5
+32,Urbana-Champaign,IL,US,8,5
+36,Ann Arbor,MI,US,15,11
+37,Charlotte,NC,US,0,0
+38,Denton,TX,US,0,13
+39,Ottawa,ON,CA,18,10
+40,Philadelphia,PA,US,27,26
+42,Marina del Rey,CA,US,26,25
+43,Richardson,TX,US,15,25
+45,Toronto,ON,CA,56,15
+46,Seattle,WA,US,45,41
+47,London,ON,CA,8,2
+48,Madison,WI,US,3,1
+50,Bellingham,WA,US,7,6
+51,New Haven,CT,US,78,35
+70,Salt Lake City,UT,US,50,18
+97,Atlanta,GA,US,17,13
+105,Houston,TX,US,16,6
+106,College Park,MD,US,20,19
