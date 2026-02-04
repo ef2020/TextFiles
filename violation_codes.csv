@@ -1,0 +1,73 @@
+VIOLATION_CODE,DESCRIPTION,CRITICAL
+02A,"Time/Temperature Control for Safety (TCS) food not cooked to required minimum internal temperature. • Poultry, poultry parts, ground and comminuted poultry, all stuffing containing poultry, meats, fish or ratites to or above 165 °F for 15 seconds with no interruption of the cooking process  • Ground meat, and food containing ground and comminuted meat, to or above 158 °F for 15 seconds with no interruption of the cooking process, except per individual customer request• Pork, any food containing pork to or above 150 °F for 15 seconds• Mechanically tenderized or injected meats to or above 155 °F.• Whole meat roasts and beef steak to or above required temperature and time except per individual customer request• Raw animal foods cooked in microwave to or above165 °F, covered, rotated or stirred  • All other foods to or above 140 °F for 15 seconds; shell eggs to or above 145 °F for 15 seconds except per individual customer request.",Critical
+02B,Hot TCS food item not held at or above 140 °F.,Critical
+02C,Hot food item that has been cooked and refrigerated is being held for service without first being reheated to 165º F or above within 2 hours.,Critical
+02D,Commercially processed pre-cooked TCS in hermetically sealed containers and precooked TCS in intact packages from non-retail food processing establishments not heated to 140 °F within 2 hours of removal from container or package.,Critical
+02F,"Meat, fish, molluscan shellfish, unpasteurized raw shell eggs, poultry or other TCS offered or served raw or undercooked and written notice not provided to consumer.",Critical
+02G,Cold food item held above 41º F (smoked fish and reduced oxygen packaged foods above 38 ºF) except during necessary preparation.,Critical
+02H,"Food not cooled by an approved method whereby the internal product temperature is reduced from 140º F to 70º F or less within 2  hours, and from 70º F to 41º F or less within 4 additional hours.",Critical
+02I,TCS food removed from cold holding or prepared from or combined with ingredients at room temperature not cooled by an approved method to 41 °F or below within 4 hours.,Critical
+03A,Food from unapproved or unknown source or home canned. Reduced oxygen packaged (ROP) fish not frozen before processing; or ROP foods prepared on premises transported to another site.,Critical
+03B,"Shellfish not from approved source, improperly tagged/labeled; tags not retained for 90 days.",Critical
+03C,"Unclean or cracked whole eggs or unpasteurized liquid, frozen or powdered eggs kept or used.",Critical
+03D,"Food package (including canned food product or hermetically sealed container) not in good condition to the degree contents are not suitable for human consumption. Package is swollen, leaking or rusted, without “DO NOT USE” label or not segregated from consumable food items.",Critical
+03E,No or inadequate potable water supply. Water or ice not potable or from unapproved source. Bottled water not NY State certified.  Cross connection in potable water supply system.,Critical
+03F,Unpasteurized milk or milk product (except certain aged cheese) served.,Critical
+03G,Raw fruit or vegetable not properly washed prior to cutting or serving.,Critical
+03I,"Juice packaged on premises with no or incomplete label, no warning statement",Critical
+04A,Food Protection Certificate (FPC) not held by manager or supervisor of food operations.,Critical
+04B,Food worker or vendor working or is knowingly or negligently permitted to work in FSE while afflicted with infected wound or reportable communicable disease. No spitting allowed. Spitting anywhere in the establishment is prohibited.,Critical
+04C,Food worker/food vendor does not use utensil or other barrier to eliminate bare hand contact with food that will not receive adequate additional heat treatment.,Critical
+04D,"Food worker/food vendor does not wash hands thoroughly  after using the toilet, or after coughing, sneezing, smoking, eating, preparing raw foods or otherwise contaminating hands or does not change gloves when required; Worker fails to refrain from smoking or  being fully clothed in clean outer garments.",Critical
+04E,Toxic chemical or pesticide improperly stored or used such that food contamination may occur.,Critical
+04F,"Food, food preparation area, food storage area, area used by employees or patrons, contaminated by sewage or liquid waste.",Critical
+04H,"Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.",Critical
+04I,Non-TCS food that has been served to the public being re-served. (Does not apply to wrapped foods where the wrapper seal has not been broken or opened).,Critical
+04J,"Appropriately scaled metal stem-type thermometer or thermocouple not provided or used to evaluate temperatures of potentially hazardous foods during cooking, cooling, reheating and holding.",Critical
+04K,Evidence of rats or live rats in establishment's food or non-food areas.,Critical
+04L,Evidence of mice or live mice in establishment's food or non-food areas.,Critical
+04M,Live roaches in facility's food or non-food area.,Critical
+04N,"Filth flies or food/refuse/sewage associated with (FRSA) flies or other nuisance pests  in  establishment’s food and/or non-food areas. FRSA flies include house flies, blow flies, bottle flies, flesh flies, drain flies, Phorid flies and fruit flies.",Critical
+04O,Live animals other than fish in tank or service animal present in facility's food and/or non-food areas.,Critical
+04P,"Food containing a prohibited substance held, kept, offered, prepared, processed, packaged, or served.",Critical
+05A,"Sewage disposal system is not provided, improper, inadequate or unapproved.",Critical
+05B,Harmful noxious gas or vapor detected. Carbon Monoxide (CO) level exceeds nine (9) ppm,Critical
+05C,"Food contact surface, refillable, reusable containers, or equipment improperly constructed, placed or maintained. Unacceptable material used.  Culinary sink or other acceptable method not provided for washing food.",Critical
+05D,Hand washing facility not provided in or near food preparation area and toilet room. Hot and cold running water at adequate pressure to enable cleanliness of employees not provided at facility. Soap and an acceptable hand-drying device not provided.,Critical
+05E,Insufficient or no refrigerated or hot holding equipment to keep potentially hazardous foods at required temperatures.,Critical
+05F,Insufficient or no refrigerated or hot holding equipment to keep potentially hazardous foods at required temperatures.,Critical
+05H,No approved written standard operating procedure for avoiding contamination by refillable returnable containers.,Critical
+06A,Personal cleanliness is inadequate. Outer garment soiled with possible contaminant. Effective hair restraint not worn where required. Jewelry worn on hands or arms. Fingernail polish worn or fingernails not kept clean and trimmed.,Critical
+06B,"Tobacco or electronic cigarette use, eating, or drinking from open container in food preparation, food storage or dishwashing area.",Critical
+06C,"Food, supplies, or equipment not protected from potential source of contamination during storage, preparation, transportation, display, service or from customer’s refillable, reusable container.  Condiments not in single-service containers or dispensed directly by the vendor.",Critical
+06D,"Food contact surface not properly washed, rinsed and sanitized after each use and following any activity when contamination may have occurred.",Critical
+06E,"Sanitized equipment or utensil, including in-use food dispensing utensil, improperly used or stored.",Critical
+06F,Wiping cloths soiled or not stored in sanitizing solution.,Critical
+06G,HACCP plan not approved or approved HACCP plan not maintained on premises.,Critical
+06H,Records and logs not maintained to demonstrate that HACCP plan has been properly implemented.,Critical
+06I,Food not labeled in accordance with the approved HACCP plan,Critical
+07A,Duties of an officer of the Department interfered with or obstructed.,Critical
+08A,Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.,Not Critical
+08B,"Covered garbage receptacle not provided or inadequate, except that garbage receptacle may be uncovered during active use. Garbage storage area not properly constructed or maintained; grinder or compactor dirty.",Not Critical
+08C,Pesticide use not in accordance with label or applicable laws. Prohibited chemical used/stored. Open bait station used.,Not Critical
+09A,"Swollen, leaking, rusted or otherwise damaged canned food to be returned to distributor not segregated from intact product and clearly labeled DO NOT USE",Critical
+09B,Thawing procedure improper.,Not Critical
+09C,"Design, construction, materials used or maintenance of food contact surface improper. Surface not easily cleanable, sanitized and maintained.",Not Critical
+09D,Food service operation occurring in room or area used as living or sleeping quarters.,Not Critical
+09E,Wash hands sign not posted near or above hand washing sink.,Not Critical
+10A,"Toilet facility not maintained or provided with toilet paper, waste receptacle or self-closing door.",Not Critical
+10B,Anti-siphonage or back-flow prevention device not provided where required; equipment or floor not properly drained; sewage disposal system in disrepair or not functioning properly. Condensation or liquid waste improperly disposed of.,Not Critical
+10C,"Lighting inadequate; permanent lighting not provided in food preparation areas, ware washing areas, and storage rooms. Shatterproof bulb or shield to prevent broken glass from falling into food or onto surfaces, not installed.",Not Critical
+10D,"Mechanical or natural ventilation system not provided,  improperly installed, in disrepair and/or fails to prevent excessive build-up of grease, heat, steam condensation vapors, odors, smoke, and fumes.",Not Critical
+10E,Accurate thermometer not provided in refrigerated or hot holding equipment.,Not Critical
+10F,"Non-food contact surface or equipment made of unacceptable material, not kept clean, or not properly sealed, raised, spaced or movable to allow accessibility for cleaning on all sides, above and underneath the unit.",Not Critical
+10G,"Dishwashing and ware washing: Cleaning and sanitizing of tableware, including dishes, utensils, and equipment deficient.",Not Critical
+10H,Proper sanitization not provided for utensil ware washing operation.,Not Critical
+10I,"Single service item reused, improperly stored, dispensed; not used when required.",Not Critical
+10J,Hand wash sign not posted,Not Critical
+18-11,Food Protection Certificate not available for inspection,Not Critical
+22F,MISBRANDED AND LABELING,Not Critical
+22G,Sale or use of certain expanded polystyrene items restricted,Not Critical
+28-05,"Food adulterated or misbranded. Adulterated or misbranded food possessed, being manufactured, produced, packed, sold, offered for sale, delivered or given away",Not Critical
+28-06,Contract with a pest management professional not in place. Record of extermination activities not kept on premises.,Not Critical
+28-07,"Unapproved outdoor, street or sidewalk cooking.",Not Critical
